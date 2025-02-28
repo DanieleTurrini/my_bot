@@ -4,7 +4,7 @@
 This project was developed as part of the **Robotic Perception and Action** course. The primary goal was to design and implement a mobile robotics simulation environment using **ROS2** and **Gazebo**. The simulation involves controlling a **deambulator** to follow a predefined path while visualizing its environment.
 
 ## Key Features
-- **Path Following**: The deambulator autonomously follows a given trajectory.
+- **Path Following**: The walker autonomously follows a given trajectory.
 - **Dynamic Updates**: The path and map can be updated dynamically, ensuring real-time adaptability.
 - **Integration with Other Projects**:
   - A **height map generator** that constructs an environmental map using depth camera images.
@@ -29,7 +29,7 @@ This project was developed as part of the **Robotic Perception and Action** cour
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repository
+   cd my_bot
    ```
 3. Build the ROS2 workspace:
    ```bash
@@ -43,12 +43,11 @@ This project was developed as part of the **Robotic Perception and Action** cour
 ### Running the Simulation
 To launch the simulation, run:
 ```bash
-ros2 launch your_package simulation.launch.py
+ros2 launch my_bot simulation.launch.py
 ```
 
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or report issues.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+To make the robot move, run:
+```bash
+ros2 run my_bot path_follow
+```
 
