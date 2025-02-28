@@ -43,7 +43,7 @@ This project was developed as part of the **Robotic Perception and Action** cour
 ### Running the Simulation
 To launch the simulation, run:
 ```bash
-ros2 launch my_bot simulation.launch.py
+ros2 launch my_bot launch_sim.launch.py
 ```
 
 To make the robot move, run:
@@ -52,5 +52,5 @@ ros2 run my_bot path_follow
 ```
 
 ### Results
-Here there is a link to download a detailed report of the work done:
+Here there is a link to download a report with a qualitative explenation of the work done:
   [Download the report](Deambulator_Control_and_Visualization_with_Ros2_and_Gazebo.pdf)
