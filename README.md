@@ -51,3 +51,6 @@ To make the robot move, run:
 ros2 run my_bot path_follow
 ```
 
+### Results
+Here there is a link to download a detailed report of the work done:
+  [Download the report](Deambulator_Control_and_Visualization_with_Ros2_and_Gazebo.pdf)
